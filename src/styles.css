@@ -2,13 +2,10 @@ html {
     background-color: black;
 }
 
-.main-board {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.row-1, .row-2, .row-3, .row-4, .row-5, .row-6 {
+    float: right;
 
-.box {
+    font-size: 2.3em;
     border: solid 1px #3a3b3d;
     color: white;
 
@@ -21,9 +18,12 @@ html {
     vertical-align: middle;
     line-height: 1.8em;
 
-    font-size: 2.3em;
+}
 
-
+.parent-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
