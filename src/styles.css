@@ -1,0 +1,31 @@
+html {
+    background-color: black;
+}
+
+.main-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: solid 1px #3a3b3d;
+    color: white;
+
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    min-height: 70px;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.8em;
+
+    font-size: 2.3em;
+
+
+}
+
+
+
+
